@@ -13,6 +13,9 @@
 #define RAISE   2
 #define ADJUST  3
 
+&lt {
+    quick_tap_ms = <200>;
+};
 
 / {
         keymap {
@@ -27,7 +30,7 @@
                   &kp LALT &kp LGUI &lt RAISE ENT    &lt LOWER SPACE &kp BSPC &kp RALT
                         >;
                 };
-                lower_layer {
+                lower {
 
                         bindings = <
    &gresc    &trans       &trans       &trans       &trans       &trans         &trans   &trans   &kp UP   &trans    &trans &kp EQUAL
@@ -37,7 +40,7 @@
                         >;
                 };
 
-                raise_layer {
+                raise {
 
                         bindings = <
    &gresc    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp EQUAL
@@ -47,7 +50,7 @@
                         >;
                 };
 
-                adjust_layer {
+                adjust {
 
                         bindings = <
    &kp F1    &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7   &kp F8   &kp F9 &kp F10    &kp F11 &kp F12
