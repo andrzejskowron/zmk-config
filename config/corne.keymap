@@ -22,7 +22,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-
+                        label = "DEFAULT";
                         bindings = <
    &gresc   &kp Q &kp D &kp R &kp W &kp B   &kp J &kp F  &kp U     &kp P   &kp SEMI    &kp MINUS
    &mt LCTRL TAB &kp A &kp S &kp H &kp T &kp G   &kp Y &kp N  &kp E     &kp O   &kp I &kp SQT
@@ -31,7 +31,7 @@
                         >;
                 };
                 lower_layer {
-
+                        label = "LOWER";
                         bindings = <
    &gresc    &trans       &trans       &trans       &trans       &trans         &trans   &trans   &kp UP   &trans    &trans &kp EQUAL
    &trans &trans &trans &trans &trans &kp LBKT                                &kp RBKT &kp LEFT &kp DOWN &kp RIGHT &trans &kp BACKLSLASH
@@ -41,7 +41,7 @@
                 };
 
                 raise_layer {
-
+                        label = "RAISE";
                         bindings = <
    &gresc    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp EQUAL
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp BACKSLASH
@@ -51,7 +51,7 @@
                 };
 
                 adjust_layer {
-
+                        label = "ADJUST";
                         bindings = <
    &kp F1    &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7   &kp F8   &kp F9 &kp F10    &kp F11 &kp F12
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &trans &trans &trans   &trans &trans &trans &trans &trans &trans
