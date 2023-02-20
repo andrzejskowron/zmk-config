@@ -34,7 +34,7 @@
                         label = "LOWER";
                         bindings = <
    &gresc    &trans       &trans       &trans       &trans       &trans         &trans   &trans   &kp UP   &trans    &trans &kp EQUAL
-   &trans &trans &trans &trans &trans &kp LBKT                                &kp RBKT &kp LEFT &kp DOWN &kp RIGHT &trans &kp BACKLSLASH
+   &trans &trans &trans &trans &trans &kp LBKT                                &kp RBKT &kp LEFT &kp DOWN &kp RIGHT &trans &kp BSLH
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans          &trans   &trans   &trans &trans    &trans &kp PIPE
                           	        &kp LGUI     &trans       &trans      &trans  &kp DEL   &trans
                         >;
