@@ -81,4 +81,4 @@
         compatible = "zmk,battery-nrf-vddh";
         label = "VBATT";
     };
-}
+};
