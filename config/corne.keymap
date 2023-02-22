@@ -36,7 +36,7 @@
    &gresc    &trans       &trans       &trans       &trans       &trans         &trans   &trans   &kp UP   &trans    &trans &kp EQUAL
    &trans &trans &trans &trans &trans &kp LBKT                                &kp RBKT &kp LEFT &kp DOWN &kp RIGHT &trans &kp BSLH
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans          &trans   &trans   &trans &trans    &trans &kp PIPE
-                          	        &kp LGUI     &trans       &trans      &trans  &kp DEL   &trans
+                          	        &kp LALT     &trans       &trans      &trans  &kp DEL   &trans
                         >;
                 };
 
@@ -46,7 +46,7 @@
    &gresc    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp EQUAL
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp BACKSLASH
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &trans
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                    	     &kp LALT &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
 
